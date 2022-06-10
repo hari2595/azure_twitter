@@ -30,7 +30,7 @@ Step 11: Set the permissions to be accessed by any Azure services. Note the SQL 
 Step 12: Copy the conetent of ToStream.scala on to notebook2, replace the authentication values with your own. <br><br>
 Step 13: Make sure the table mentioned in notebook 2 does not exist in your DB. <br><br>
 Step 14: Run both the notebooks, you should start recieving the tweets in your notebook 2. When enough data is collected run th final cell to create your copy of the table in Azure Sql or Synapse DB. <br><br>
-Step 15: Create a new Data Factory Resource and create a data flow as per screenshots mentioned in the DataFactory folder. <br><br>
+Step 15: Create a new Data Factory Resource and create a data flow as per screenshots mentioned in the DataFactory folder. Make sure to change the data type for sentiment.<br><br>
 <p>
     <img src="https://github.com/hari2595/azure_twitter/blob/main/Data%20Factory/2.PNG" width="880" height="440" />
 </p><br><br>
