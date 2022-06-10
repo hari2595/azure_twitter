@@ -2,6 +2,7 @@
 <br>
 This an end to end project where we pull live tweets from twitter with help Spark clusters on Azure Data Bricks and perform sentiment analysis on the data with Azure Language Services. Then we store the final Data in a Azure DB and a Parquet file in ADS Gen 2 Data Lake as a backup, this is orchestrated with the help of azure Data Factory. We finally use Power BI to connect with the Final DB in Azure SQL DB. Note: Azure Synapse can be utilized instead of Azure DB.
 <br>
+![](https://raw.githubusercontent.com/hari2595/azure_twitter/main/Azure%20DFD.jpeg)
 <h3> Pre Requisites: </h3><br>
 Twitter Developer account <br>
 Azure Cloud Service Account <br>
